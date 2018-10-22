@@ -19,3 +19,15 @@ I can linke directly to my [about page](about.html).
 
 ### Picture  
 <img src="images/pig.jpg" style="width:75%">
+
+
+### I can add code
+```{r}
+library(tidyverse)
+
+tibble(
+  x = 1:10,
+  y = x + 2
+)
+```
+
