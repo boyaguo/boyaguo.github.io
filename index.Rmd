@@ -1,24 +1,30 @@
 ---
-title: "Homework 4"
+title: "Boya Guo"
 output: 
 html_document: 
 toc: true
 toc_float: true
 ---
 
-Welcome to Boya Guo's website! 
+
+Welcome to Boya Guo's website!
 
 
-I can linke directly to my [about page](about.html).
-
-Click the link [github](https://github.com/boyaguo) go to my Github account 
-
-### Picture  
-<img src="images/pig.jpg" style="width:75%">
+###Picture  
+<img src="images/profile_picture.jpg" style="width:75%">
 
 
-### I can add code
+### About 
+Go to my [About page](about.html).
 
-My code page is [here](code.html).
+### Github Account 
+Go to my [GitHub account](https://github.com/boyaguo)
+
+### Experience 
+Go to my [Experience page](experience.html)
+
+
+### Code
+Go to my code page [here](code.html).
 
 
