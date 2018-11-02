@@ -1,9 +1,7 @@
 ---
 title: "Boya Guo"
 output: 
-html_document: 
-toc: true
-toc_float: true
+  html_document
 ---
 
 
@@ -11,7 +9,7 @@ Welcome to Boya Guo's website!
 
 
 ###Picture  
-<img src="images/profile_picture.jpg" style="width:75%">
+<img src="images/profile_picture.jpg" style="width:75%"> 
 
 
 ### About 

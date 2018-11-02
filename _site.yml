@@ -12,5 +12,5 @@ navbar:
     - icon: fa-github fa-lg
       href: http://github.com/boyaguo/
 output:
-  html_document: 
-  theme: cosmo
+  html_document:
+    theme: paper 
