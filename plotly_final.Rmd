@@ -1,0 +1,66 @@
+---
+title: "HW4 Problem 2"
+author: "Boya Guo"
+date: "2018/11/1"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(viridis)
+library(p8105.datasets)
+library(plotly)
+library(flexdashboard)
+library(dplyr)
+```
+
+### Import and tidy the NY NOAA dataset
+```{r}
+hw4 <- ny_noaa %>% 
+  separate(date, into = c("year", "month", "day"), sep = "-") %>% 
+  mutate(prcp = prcp / 10,
+         tmax = as.numeric(tmax) / 10,
+         tmin = as.numeric(tmin) / 10) %>%
+  filter(year == "2010",
+         !is.na(prcp),
+         !is.na(snow),
+         !is.na(snwd),
+         !is.na(tmax),
+         !is.na(tmin))
+```
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart 1：Plotly scatterplot
+```{r scatterplot}
+hw4 %>%
+  plot_ly(x = ~tmax, y = ~tmin, type = "scatter", mode = "markers",
+          alpha = 0.5, 
+          color = ~snwd)
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart 2: Ploty hexplot
+```{r plot2: hexplot}
+hex_ggplot = hw4 %>% 
+  ggplot(aes(x = tmax, y = tmin)) + 
+  geom_hex() +
+  labs(
+    title = "Hex plot of maximum temperature/minimum temperature",
+    x = "Maximum Temperature",
+    y = "Minimum Temperature"
+  )
+ggplotly(hex_ggplot)
+```
+
+### Chart3: Ploty boxplot
+```{r plot3:boxplot}
+hw4 %>% 
+    plot_ly(y = ~tmax, color = ~month, type = "box",
+          colors = "Set2")
+```

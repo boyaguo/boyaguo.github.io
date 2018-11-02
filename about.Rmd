@@ -6,7 +6,6 @@ output:
     toc_float: true
 ---
 
-### [Resume](./images/resume.pdf)
-
-Click the link above to look at Boya's resume.
+### Resume
+Click the link to take a look at Boya's [resume](./Images/resume.pdf).
 
