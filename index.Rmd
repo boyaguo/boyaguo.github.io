@@ -13,7 +13,7 @@ Welcome to Boya Guo's website!
   
 Boya Guo is a second year graduate student at Columbia University. She is pursuing a Master of Public Health degree in the [Department of Epidemiology](https://www.mailman.columbia.edu/become-student/departments/epidemiology), Mailman School of Public Health. She graduated from Emory Univeristy in 2017 with a Bachelor of Sciences degree in [Biology](http://www.biology.emory.edu/) and a Bachelor of Arts degree in [Human Health](http://s165322.gridserver.com/wordpress/curriculum/human-health-major/). She is interested in cancer epidemiology research and dedicated to continue her research path in breast cancer and nutrition.
 
-On this website, you will find Boya's [experience/resume](about.html) and [research projects](research.html). 
+On this website, you will find Boya's [research projects/experiences](research.html). 
 
 You can find Boya on [GitHub](https://github.com/boyaguo), and [linkedin](https://www.linkedin.com/in/boyaguo/). Reach out to her by sending an email at boya.guo@columbia.edu.
 
