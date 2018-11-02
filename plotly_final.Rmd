@@ -30,7 +30,7 @@ hw4 <- ny_noaa %>%
          !is.na(tmax),
          !is.na(tmin))
 ```
-Column {data-width=500}
+Column {data-width=300}
 -----------------------------------------------------------------------
 
 ### Chart 1：Plotly scatterplot
@@ -41,7 +41,7 @@ hw4 %>%
           color = ~snwd)
 ```
 
-Column {data-width=500}
+Column {data-width=700}
 -----------------------------------------------------------------------
 
 ### Chart 2: Ploty hexplot
@@ -57,7 +57,7 @@ hex_ggplot = hw4 %>%
 ggplotly(hex_ggplot)
 ```
 
-### Chart3: Ploty boxplot
+### Chart 3: Ploty boxplot
 ```{r plot3:boxplot}
 hw4 %>% 
     plot_ly(y = ~tmax, color = ~month, type = "box",
