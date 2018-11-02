@@ -17,7 +17,6 @@ library(flexdashboard)
 library(dplyr)
 ```
 
-### Import and tidy the NY NOAA dataset
 ```{r}
 hw4 <- ny_noaa %>% 
   separate(date, into = c("year", "month", "day"), sep = "-") %>% 
