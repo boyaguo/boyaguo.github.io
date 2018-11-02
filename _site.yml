@@ -5,12 +5,14 @@ navbar:
   right:
     - text: "About"
       href: about.html
-    - text: "Experience"
-      href: experience.html
+    - text: "Research"
+      href: research.html
     - icon: fa-envelope fa-lg
       href: mailto:<boya.guo@columbia.edu>
     - icon: fa-github fa-lg
       href: http://github.com/boyaguo/
+    - icon: fa-linkedin fa-lg
+      href: https://www.linkedin.com/in/boyaguo/
 output:
   html_document:
-    theme: paper 
+    theme: cosmo 

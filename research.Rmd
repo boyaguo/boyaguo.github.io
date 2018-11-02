@@ -1,0 +1,52 @@
+---
+title: "Research Projects"
+output: 
+  html_document: 
+    toc: true
+    toc_float: true
+---
+\  
+
+## Columbia University 
+#### Herbert Irving Comprehensive Cancer Center
+• Investigate the adherence of chemoprevention with anti-estrogens among high risk breast cancer patients, the risk of developing breast cancer, and side effects/toxicity using the Electronic Health Record (EHR) for the Columbia Doctors Faculty Practice
+
+•Extract and clean the EHR data, and use SAS to generate models to determine which predictive factors influence the adherence of chemoprevention
+
+•Created and presented scientific poster and manuscript on the Masters Student Research Symposium at Columbia University
+
+\  
+
+## New York University 
+#### School of Medicine, Department of Population Health
+• Performed data cleaning, coding and complex survey analysis using SAS on NHANES, CHIS and YRBS datasets to investigate the non-alcoholic fatty liver diseases patterns among children and adolescents across racial and ethnic groups 
+
+• Conducted literature reviews, fact-finding and assist in preparing journal articles, reports, and policy briefs 
+
+• Developed a deeper understanding of culturally and linguistically appropriate approaches to research, outreach,community partnerships, and care delivery in Asian American populations 
+
+\ 
+
+## Emory University 
+
+#### The Hubert Department of Global Health
+• Screened and extracted over 200 relevant papers for WHO-sponsored systematic review and meta-analysis studying the association between maternal hemoglobin levels and anemia on maternal and child health
+
+• Worked closely with colleagues to summarize findings of work and determine the differential associations between maternal hemoglobin concentrations and anemia by timing of measurement
+
+\ 
+
+#### The Nutrition and Health Sciences Program
+• Used STATA to recode descriptive variables and conducted secondary quantitative data analysis on Demographic and Health Surveys (DHS) dataset
+
+• Investigated the association among women's empowerment and women and children nutritional outcomes in Ethiopia, Kenya, Rwanda, Tanzania, and Uganda
+
+\ 
+
+#### The Emory Global Diabetes Research Center
+• Conducted secondary quantitative data cleaning and analysis using SAS and STATA, and collaborated on the development of the manuscript, poster, and conference abstract
+
+• Evaluated the reproducibility of Nutrition Transition-Food Frequency Questionnaires for urban adolescents in South India
+
+• Investigated adolescent eating patterns, eating behaviors and beliefs in a globalized context with nutritional transitions in new versus established urban centers in South India
+
