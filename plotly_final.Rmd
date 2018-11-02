@@ -30,7 +30,7 @@ hw4 <- ny_noaa %>%
          !is.na(tmax),
          !is.na(tmin))
 ```
-Column {data-width=650}
+Column {data-width=500}
 -----------------------------------------------------------------------
 
 ### Chart 1：Plotly scatterplot
@@ -41,7 +41,7 @@ hw4 %>%
           color = ~snwd)
 ```
 
-Column {data-width=350}
+Column {data-width=500}
 -----------------------------------------------------------------------
 
 ### Chart 2: Ploty hexplot
