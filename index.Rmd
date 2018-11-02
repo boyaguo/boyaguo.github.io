@@ -17,6 +17,8 @@ On this website, you will find Boya's [experience/resume](about.html) and [resea
 
 You can find Boya on [GitHub](https://github.com/boyaguo), and [linkedin](https://www.linkedin.com/in/boyaguo/). Reach out to her by sending an email at boya.guo@columbia.edu.
 
+Click [this] (plot_ly.html) link to see the plotly interactive graphics created for HW4 Problem 2. The graphs were based on the [NY NOAA](http://p8105.com/dataset_noaa.html)  dataset. 
+
 \   
 
 ### Contact Information 
